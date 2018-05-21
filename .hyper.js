@@ -119,6 +119,12 @@ module.exports = {
       defaultBrowser: true
     },
 
+    hyperStatusLine: {
+      dirtyColor: 'salmon',
+      aheadColor: 'ivory',
+      footerTransparent: false
+    },
+
     hyperTabs: {
       activityColor: 'salmon',
       trafficButtons: true,
@@ -148,7 +154,8 @@ module.exports = {
     'hyperlinks',
     'hyper-quit',
     'hyper-chesterish',
-    'hyper-tabs-enhanced'
+    'hyper-tabs-enhanced',
+    'hyper-statusline'
   ],
 
   // in development, you can create a directory under
